@@ -6,24 +6,32 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com/mollywang154.github.io">
-  <title>Molly&#39;s blog</title>
+  <title>魔驢~魔驢~</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta name="description" content="My first blog">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Molly&#39;s blog">
+<meta property="og:title" content="魔驢~魔驢~">
 <meta property="og:url" content="http://example.com/mollywang154.github.io/index.html">
-<meta property="og:site_name" content="Molly&#39;s blog">
+<meta property="og:site_name" content="魔驢~魔驢~">
 <meta property="og:description" content="My first blog">
 <meta property="og:locale" content="zh_TW">
 <meta property="article:author" content="Molly Wang">
+<meta property="article:tag" content="前端後端">
 <meta name="twitter:card" content="summary">
   
-    <link rel="alternative" href="/atom.xml" title="Molly&#39;s blog" type="application/atom+xml">
+    <link rel="alternative" href="/atom.xml" title="魔驢~魔驢~" type="application/atom+xml">
   
   
     <link rel="icon" href="/favicon.png">
   
   <link rel="stylesheet" type="text/css" href="/mollywang154.github.io/./main.0cf68a.css">
+
+  <!-- 头像旋转 -->
+  
+  <link rel="stylesheet" type="text/css" href="/./avatarrotation.css">
+  
+  <!-- end -->
+  
   <style type="text/css">
   
     #container.show {
@@ -51,6 +59,8 @@
 		  <h1 class="header-author"><a href="/"></a></h1>
 		</hgroup>
 		
+		<p class="header-subtitle">选我所爱、爱我所选</p>
+		
 
 		<nav class="header-menu">
 			<ul>
@@ -62,7 +72,7 @@
 			</ul>
 		</nav>
 		<nav>
-    	总文章数 3
+    	总文章数 4
 		</nav>
 
 
@@ -117,6 +127,8 @@
 			  <h1 class="header-author js-header-author"></h1>
 			</hgroup>
 			
+			<p class="header-subtitle"><i class="icon icon-quo-left"></i>选我所爱、爱我所选<i class="icon icon-quo-right"></i></p>
+			
 			
 			
 				
@@ -162,9 +174,188 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-new-article" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/mollywang154.github.io/new-article.html">jquery語法展示</a>
+    </h1>
+  
+
+
+
+    <!-- ... 以下是添加的Jquery語法 ... -->
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
+        <style> 
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+          background-color: #FF7F50;
+          border: solid 1px #c3c3c3;
+        }
+
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style>
+        </head>
+        <body>
+         
+        <div id="flip">歡迎點擊</div>
+        <div id="panel">今天是個好天氣，加油努力不要辜負好天氣！</div>
+
+        </body>
+        </html> 
+
+
+
+
+
+
+
+
+
+        <div align="center" class="post-count">
+        字数：39字 | 预计阅读时长：1分钟
+        </div>
+
+
+
+
+        
+        
+        <a href="/mollywang154.github.io/new-article.html" class="archive-article-date">
+  	<time datetime="2020-10-28T12:56:22.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-10-28</time>
+</a>
+        
+
+
+        
+
+
+
+
+
+
+
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+</script>
+<script>
+$(document).ready(function(){
+  $("button").click(function(){
+    $("p").addClass("orange");
+    $("div").addClass("important");
+    $("p").addClass("animated bounce");
+  });
+});
+</script>
+<style type="text/css">
+.important
+{
+  font-weight:bold;
+  font-size:xx-large;
+}
+.orange
+{
+  color:orange;
+}
+</style>
+</head>
+<body>
+
+
+<p>其實也沒什麽只是爲了展示jquery語法</p>
+<p>想點擊你就試試看。只是現在還無法回收</p>
+
+<br>
+<button>你敢點擊一下麽？</button>
+
+</body>
+</html>
+      
+
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">jQuery</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">javascript</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+      
+
+      
+        <p class="article-more-link">
+          <a class="article-more-a" href="/mollywang154.github.io/new-article.html">展开全文 >></a>
+        </p>
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+  
     <article id="post-welcom" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+
       <header class="article-header">
         
   
@@ -172,6 +363,48 @@
       <a class="article-title" href="/mollywang154.github.io/welcom.html">歡迎歡迎，請多多指教！</a>
     </h1>
   
+
+
+
+    <!-- ... 以下是添加的Jquery語法 ... -->
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
+        <style> 
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+          background-color: #FF7F50;
+          border: solid 1px #c3c3c3;
+        }
+
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style>
+        </head>
+        <body>
+         
+        <div id="flip">歡迎點擊</div>
+        <div id="panel">今天是個好天氣，加油努力不要辜負好天氣！</div>
+
+        </body>
+        </html> 
+
+
+
+
+
+
 
 
 
@@ -267,6 +500,7 @@
     <article id="post-blog1" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+
       <header class="article-header">
         
   
@@ -274,6 +508,48 @@
       <a class="article-title" href="/mollywang154.github.io/blog1.html">請你哈哈笑</a>
     </h1>
   
+
+
+
+    <!-- ... 以下是添加的Jquery語法 ... -->
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
+        <style> 
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+          background-color: #FF7F50;
+          border: solid 1px #c3c3c3;
+        }
+
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style>
+        </head>
+        <body>
+         
+        <div id="flip">歡迎點擊</div>
+        <div id="panel">今天是個好天氣，加油努力不要辜負好天氣！</div>
+
+        </body>
+        </html> 
+
+
+
+
+
+
 
 
 
@@ -380,6 +656,7 @@
     <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
+
       <header class="article-header">
         
   
@@ -387,6 +664,48 @@
       <a class="article-title" href="/mollywang154.github.io/hello-world.html">Hello World</a>
     </h1>
   
+
+
+
+    <!-- ... 以下是添加的Jquery語法 ... -->
+        <!DOCTYPE html>
+        <html>
+        <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script> 
+        $(document).ready(function(){
+          $("#flip").click(function(){
+            $("#panel").slideDown("slow");
+          });
+        });
+        </script>
+        <style> 
+        #panel, #flip {
+          padding: 5px;
+          text-align: center;
+          background-color: #FF7F50;
+          border: solid 1px #c3c3c3;
+        }
+
+        #panel {
+          padding: 50px;
+          display: none;
+        }
+        </style>
+        </head>
+        <body>
+         
+        <div id="flip">歡迎點擊</div>
+        <div id="panel">今天是個好天氣，加油努力不要辜負好天氣！</div>
+
+        </body>
+        </html> 
+
+
+
+
+
+
 
 
 
@@ -591,6 +910,14 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color3">動物</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color2">jQuery</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color1">javascript</a>
               </li>
             
             <div class="clearfix"></div>
